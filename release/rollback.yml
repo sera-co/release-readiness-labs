@@ -1,2 +1,8 @@
-rollback_strategy: 
+rollback_strategy: when the secrets are exposed accidentally in github . 
+
+                  1. rotate the secret that is change the secrets immediately 
+                  2. revoke it that means delete the old passwords . 
+                  3. find the id who has accessed the old secrets . 
+                  4. store the new secrets in a vault . 
+
 target_version: 
