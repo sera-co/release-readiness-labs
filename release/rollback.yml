@@ -5,4 +5,4 @@ rollback_strategy: when the secrets are exposed accidentally in github .
                   3. find the id who has accessed the old secrets . 
                   4. store the new secrets in a vault . 
 
-target_version: 
+target_version: .
